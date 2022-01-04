@@ -67,13 +67,10 @@
       </div>
 
 
-  <!-- Argon Scripts -->
-  <!-- Core -->
+ 
   {{-- jQuery --}}
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 
-  {{-- DataTable --}}
-  <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
 
 
   {{-- Toastr And Sweet Alert --}}
@@ -90,7 +87,6 @@
   <script src="{{ asset('assets/vendor/chart.js/dist/Chart.extension.js') }}"></script>
   <!-- Argon JS -->
   <script src="{{ asset('assets/js/argon.js?v=1.2.0') }}"></script>
-  @include('sweetalert::alert')
 
   @yield('script')
 </body>
