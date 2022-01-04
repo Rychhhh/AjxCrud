@@ -1,10 +1,8 @@
 <?php
 
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ProdusenController;
 use App\Http\Controllers\Route\RouteController;
 use Illuminate\Support\Facades\Route;
-use phpDocumentor\Reflection\DocBlock\Tags\Uses;
 
 /*
 |--------------------------------------------------------------------------
